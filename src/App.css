@@ -1,0 +1,160 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*..........Home..........*/
+.content
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: justify;
+}
+
+
+.home_img
+{
+     width: 400px;
+    height: auto;
+}
+
+
+/*........Layout..........*/
+.layout-ul
+{
+     display: flex;
+     gap: 100px;
+     font-size: 20px;
+     
+}
+
+
+.layout-li
+{
+     list-style-type: none;
+}
+
+.layout-li:hover
+{
+     color: #262626;
+     border-radius: 5px;
+     border: 2px solid red;
+}
+
+.layout-link
+{
+     text-decoration: none;
+     color: #007BFF;
+     font-weight: bold;
+}
+
+.icon
+{
+     width: 100px;
+}
+
+.layout-div-ext
+{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     background-color: #f4f4f4;
+}
+
+/*........Contact..........*/
+.contact-div h2
+{
+     text-align: center;
+}
+
+.contact-form
+{
+     text-align: center;
+}
+
+.contact-input
+{
+     margin: 10px;
+     height: 30px;
+     width: 500px;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 2px 2px 3px rgba(128,128,128, 0.4);
+     background-color: #F3F6F4;
+
+}
+
+.contact-input-textarea
+{
+     margin: 10px;     
+     border: none;
+     border-radius: 5px;
+     box-shadow: 2px 3px 5px rgba(128,128,128, 0.4);
+     width: 500px;
+     background-color: #F3F6F4;
+}
+
+.button
+{    
+     width: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     background-color: #0B5394;
+     height: 30px;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+}
+.div-button
+{
+     display: flex;
+     justify-content: center;
+}
+
+
+/*........Blog..........*/
+.blog-h2
+{
+     font-size: 40px;
+     text-align: center;
+}
+
+.blog-autor
+{
+     margin-left: 50px;
+}
+
+.blog-p
+{
+     text-align: justify;
+     margin: 50px;
+     
+}
+
+.blog-img img
+{
+    width: 400px;
+    display: block;
+    margin: 0 auto;    
+}
+
+
+
+
+/*........Footer..........*/
+.footer
+{
+     background-color: #262626;
+     color: #fff;
+     text-align: center;
+     height: auto;
+     padding: 1px;
+     margin-top: 50px;
+     
+}
